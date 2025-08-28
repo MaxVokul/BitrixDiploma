@@ -1,30 +1,138 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Новости");
-?><p>
-Наша компания существует на Российском рынке с 1992 года. За это время «Мебельная компания» прошла большой путь от маленькой торговой фирмы до одного из крупнейших производителей корпусной мебели в России.
-</p><p>
-«Мебельная компания» осуществляет производство мебели на высококлассном оборудовании с применением минимальной доли ручного труда, что позволяет обеспечить высокое качество нашей продукции. Налажен производственный процесс как массового и индивидуального характера, что с одной стороны позволяет обеспечить постоянную номенклатуру изделий и индивидуальный подход – с другой.
-<h3>Наша продукция</h3>
-<?$APPLICATION->IncludeComponent("bitrix:furniture.catalog.index", "", array(
-	"IBLOCK_TYPE" => "products",
-	"IBLOCK_ID" => "2",
-	"IBLOCK_BINDING" => "section",
-	"CACHE_TYPE" => "A",
-	"CACHE_TIME" => "36000000",
-	"CACHE_GROUPS" => "N"
-	),
-	false
-);?>
-<h3>Наши услуги</h3>
-<?$APPLICATION->IncludeComponent("bitrix:furniture.catalog.index", "", array(
-	"IBLOCK_TYPE" => "products",
-	"IBLOCK_ID" => "3",
-	"IBLOCK_BINDING" => "element",
-	"CACHE_TYPE" => "A",
-	"CACHE_TIME" => "36000000",
-	"CACHE_GROUPS" => "N"
-	),
-	false
-);?>
-</p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+$APPLICATION->SetTitle("Новости");?>
+
+
+    <section class="tssection">
+        <h2 class="mains">Top stories</h2>
+        <a href="topstory.html">
+            <div class="tssqr">
+                <img class="imgts" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/image 1.png" alt="">
+                <div class="tstext">
+                    <h3>The one question from Donald Trump that could sway many American voters in swing states.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                        massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                        quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p>2 hours ago / by Sfsafa</p>
+                </div>
+            </div>
+        </a>
+        <div class="tssqr">
+            <img class="imgts" id="tssqimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/image 2.png" alt="">
+            <div class="tstext">
+                <h3>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</h3>
+                <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
+                    nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+                    enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+                    varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. </p>
+                <p>10 hours ago / by Najdsksd</p>
+            </div>
+        </div>
+        <div class="tssqr" id="tssqr">
+            <img class="imgts" id="tssqimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/image 3.png" alt="">
+            <div class="tstext">
+                <h3>Maecenas nec odio et ante tincidunt tempus.</h3>
+                <p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                    tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat,
+                    leo eget bibendum sodales, augue velit cursus nunc.</p>
+                <p>24 hours ago / by Hskdmak</p>
+            </div>
+        </div>
+    </section>
+    <section class="foryou">
+        <div class="foryouh2">
+            <h2 id="fy">For You</h2>
+            <p>Recommended based on your interests</p>
+        </div>
+    </section>
+    <div class="foryouall">
+        <section class="foryouin">
+            <div class="bigrect">
+                <img class="bigrecimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 20.png" alt="">
+                <div class="bigrecttxt">
+                    <h2>Sed fringilla mauris sit amet nibh.</h2>
+                    <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit
+                        eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                </div>
+                <p class="bigrectp">15 hours ago / by dawfw</p>
+            </div>
+            <div class="smrect">
+                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 24.png" alt="">
+                <div>
+                    <div class="smrecttxt">
+                        <h2>Sed fringilla mauris sit amet nibh.</h2>
+                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                    </div>
+                    <p class="smrectp">15 hours ago / by dawfw</p>
+                </div>
+            </div>
+            <div class="smrect2">
+                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 25.png" alt="">
+                <div>
+                    <div class="smrecttxt">
+                        <h2>Sed fringilla mauris sit amet nibh.</h2>
+                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                    </div>
+                    <p class="smrectp">15 hours ago / by dawfw</p>
+                </div>
+            </div>
+            <div class="smrect3">
+                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/image 4.png" alt="">
+                <div>
+                    <div class="smrecttxt">
+                        <h2>Sed fringilla mauris sit amet nibh.</h2>
+                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                    </div>
+                    <p class="smrectp">15 hours ago / by dawfw</p>
+                </div>
+            </div>
+            <div class="smrect4">
+                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 27.png" alt="">
+                <div>
+                    <div class="smrecttxt">
+                        <h2>Sed fringilla mauris sit amet nibh.</h2>
+                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                    </div>
+                    <p class="smrectp">15 hours ago / by dawfw</p>
+                </div>
+            </div>
+
+            <div class="bigrect2">
+                <img class="bigrecimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 26.png" alt="">
+                <div class="bigrecttxt">
+                    <h2>Sed fringilla mauris sit amet nibh.</h2>
+                    <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit
+                        eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                </div>
+                <p class="bigrectp">15 hours ago / by dawfw</p>
+            </div>
+        </section>
+    </div>
+    <section class="back">
+        <h1 id="back"><a href="">Back</a></h1>
+    </section>
+    <div class="modal-window hidden">
+        <button class="btn--close-modal-window">&times;</button>
+        <h2 class="modal__header">
+            Login
+        </h2>
+        <form class="modal__form">
+
+            <label>Email</label>
+            <input type="email"/>
+            <label>Номер телефона</label>
+            <input type="text" class="phone"/>
+            <label for="Password">Пароль:</label>
+            <input type="password" id="Password" placeholder="Пароль">
+            <button class="btn">Далее &rarr;</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
