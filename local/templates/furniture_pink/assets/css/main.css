@@ -79,7 +79,9 @@ header{
 .nav ul li:last-child {
     border-right-style: solid;
 }
-
+#panel{
+    width: 100%;
+}
 .rightpanel{
     display: flex;
     justify-content: center;
