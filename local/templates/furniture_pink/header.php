@@ -1,6 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 use Bitrix\Main\Page\Asset;
 ?>
+<? $asset=Asset::getInstance()?>
 
 
 <!DOCTYPE html>
@@ -11,9 +12,9 @@ use Bitrix\Main\Page\Asset;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <?php
-    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
-    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
-    Asset::getInstance()->addString('<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap">')
+    $asset->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
+    $asset->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
+    $asset->addString('<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap">')
     ?>
 
 
