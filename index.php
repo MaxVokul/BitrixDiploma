@@ -48,61 +48,63 @@ $APPLICATION->SetTitle("Новости");?>
     </section>
     <div class="foryouall">
         <section class="foryouin">
-            <div class="bigrect">
-                <img class="bigrecimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 20.png" alt="">
-                <div class="bigrecttxt">
-                    <h2>Sed fringilla mauris sit amet nibh.</h2>
-                    <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit
-                        eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
-                </div>
-                <p class="bigrectp">15 hours ago / by dawfw</p>
-            </div>
-            <div class="smrect">
-                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 24.png" alt="">
-                <div>
-                    <div class="smrecttxt">
+            <div class="row">
+                <div class="rect">
+                    <img class="bigrecimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 20.png" alt="">
+                    <div class="bigrecttxt">
                         <h2>Sed fringilla mauris sit amet nibh.</h2>
-                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
-                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit
+                            eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
                     </div>
-                    <p class="smrectp">15 hours ago / by dawfw</p>
+                    <p class="bigrectp">15 hours ago / by dawfw</p>
+                </div>
+                <div class="rect">
+                    <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 24.png" alt="">
+                    <div>
+                        <div class="smrecttxt">
+                            <h2>Sed fringilla mauris sit amet nibh.</h2>
+                            <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                                suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                        </div>
+                        <p class="smrectp">15 hours ago / by dawfw</p>
+                    </div>
+                </div>
+                <div class="rect">
+                    <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 25.png" alt="">
+                    <div>
+                        <div class="smrecttxt">
+                            <h2>Sed fringilla mauris sit amet nibh.</h2>
+                            <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                                suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                        </div>
+                        <p class="smrectp">15 hours ago / by dawfw</p>
+                    </div>
                 </div>
             </div>
-            <div class="smrect2">
-                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 25.png" alt="">
-                <div>
-                    <div class="smrecttxt">
-                        <h2>Sed fringilla mauris sit amet nibh.</h2>
-                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
-                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+            <div class="row">
+                <div class="rect">
+                    <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/image 4.png" alt="">
+                    <div>
+                        <div class="smrecttxt">
+                            <h2>Sed fringilla mauris sit amet nibh.</h2>
+                            <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                                suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                        </div>
+                        <p class="smrectp">15 hours ago / by dawfw</p>
                     </div>
-                    <p class="smrectp">15 hours ago / by dawfw</p>
                 </div>
-            </div>
-            <div class="smrect3">
-                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/image 4.png" alt="">
-                <div>
-                    <div class="smrecttxt">
-                        <h2>Sed fringilla mauris sit amet nibh.</h2>
-                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
-                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                <div class="rect">
+                    <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 27.png" alt="">
+                    <div>
+                        <div class="smrecttxt">
+                            <h2>Sed fringilla mauris sit amet nibh.</h2>
+                            <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
+                                suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
+                        </div>
+                        <p class="smrectp">15 hours ago / by dawfw</p>
                     </div>
-                    <p class="smrectp">15 hours ago / by dawfw</p>
                 </div>
-            </div>
-            <div class="smrect4">
-                <img class="smrectimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 27.png" alt="">
-                <div>
-                    <div class="smrecttxt">
-                        <h2>Sed fringilla mauris sit amet nibh.</h2>
-                        <p>Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor,
-                            suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
-                    </div>
-                    <p class="smrectp">15 hours ago / by dawfw</p>
-                </div>
-            </div>
-
-            <div class="bigrect2">
+                <div class="rect">
                 <img class="bigrecimg" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Rectangle 26.png" alt="">
                 <div class="bigrecttxt">
                     <h2>Sed fringilla mauris sit amet nibh.</h2>
@@ -110,6 +112,7 @@ $APPLICATION->SetTitle("Новости");?>
                         eget, imperdiet nec, imperdiet iaculis, ipsum.</p>
                 </div>
                 <p class="bigrectp">15 hours ago / by dawfw</p>
+            </div>
             </div>
         </section>
     </div>
