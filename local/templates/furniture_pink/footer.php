@@ -65,6 +65,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 <script defer src="<?=SITE_TEMPLATE_PATH?>/assets/script.js"></script>
 <script defer src="<?=SITE_TEMPLATE_PATH?>/assets/phone.js"></script>
+<script defer src="<?=SITE_TEMPLATE_PATH?>/assets/slidingmenu.js"></script>
 <!--<script defer src="--><?php //=SITE_TEMPLATE_PATH?><!--/assets/navbar.js"></script>-->
 
 </body>

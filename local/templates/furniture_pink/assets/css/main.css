@@ -21,6 +21,15 @@ main {
     flex-direction: column;
     align-items: center;
 }
+.logoholder{
+    display: flex;
+    align-items: center;
+}
+.hamburger{
+    padding: 0 0 0 1dvh;
+    width: 4dvh;
+    height: auto;
+}
 .mains{
     font-family: "Aclonica", serif;
     font-weight: 800;
@@ -29,6 +38,95 @@ main {
     margin: 0 0 0 1dvw;
     padding: 0;
 }
+
+/*SLIDING MENU*/
+
+.slide-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+    padding: 2dvh 2dvw;
+    overflow-y: auto;
+}
+
+.slide-menu:not(.hidden) {
+    transform: translateX(0);
+}
+
+.slide-menu__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn--close-slide-menu {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 2dvh;
+}
+
+.slide-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slide-nav li {
+    margin: 1.5dvh 0;
+}
+
+.slide-nav a {
+    font-family: var(--heading);
+    font-size: 1.3rem;
+    color: var(--color);
+    text-decoration: none;
+    padding: 0.8dvh 0;
+    display: block;
+    border-bottom: 1px solid var(--secondary1);
+    transition: color 0.2s;
+}
+
+.slide-nav a:hover {
+    color: var(--primary);
+}
+
+/* Blur overlay */
+.slide-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    z-index: 1500;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.slide-overlay:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Prevent body scroll when menu open */
+body.menu-open {
+    overflow: hidden;
+}
+
+/*SLIDING MENU*/
+
 h2{
     font-style: normal;
     padding: 0;
@@ -61,6 +159,7 @@ header{
 #menu{
     display: none
 }
+
 .nav ul{
     display: flex;
     list-style-type: none;

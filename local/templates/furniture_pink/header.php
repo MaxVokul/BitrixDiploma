@@ -14,6 +14,7 @@ use Bitrix\Main\Page\Asset;
     <?php
     $asset->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
     $asset->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
+    $asset->addJs(SITE_TEMPLATE_PATH.'/assets/js/menu.js');
     $asset->addString('<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap">')
     ?>
 
@@ -28,9 +29,9 @@ use Bitrix\Main\Page\Asset;
     </div>
 
 <header class="header">
-    <div>
+    <div class="logoholder">
         <a href="#">
-            <img src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Hamburger_icon.svg'?>" alt="Menu">;
+            <img class="hamburger" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Hamburger_icon1.png?" alt="Menu">
         </a>
         <div class="mains">NEWS</div>
     </div>
@@ -114,4 +115,25 @@ use Bitrix\Main\Page\Asset;
         </a>
     </div>
 </header>
+<!-- Sliding Left Menu -->
+<div class="slide-menu hidden">
+    <div class="slide-menu__content">
+        <button class="btn--close-slide-menu">×</button>
+        <nav class="slide-nav">
+            <ul>
+                <li><a href="#">Political</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Society</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- Overlay for blur -->
+<div class="slide-overlay hidden"></div>
+
 <main>
