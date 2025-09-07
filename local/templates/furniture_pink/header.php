@@ -29,6 +29,9 @@ use Bitrix\Main\Page\Asset;
 
 <header class="header">
     <div>
+        <a href="#">
+            <img src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Hamburger_icon.svg'?>" alt="Menu">;
+        </a>
         <div class="mains">NEWS</div>
     </div>
     <ol id="menu" class="ol1">
