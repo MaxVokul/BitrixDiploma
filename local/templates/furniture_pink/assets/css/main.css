@@ -206,7 +206,7 @@ header{
     align-items: center;
 }
 .tstext{
-    width: auto;
+    width: 85%;
     margin: 0 0 0 15px;
     display: flex;
     flex-direction: column;

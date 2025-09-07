@@ -121,7 +121,7 @@ use Bitrix\Main\Page\Asset;
         <button class="btn--close-slide-menu">×</button>
         <nav class="slide-nav">
             <ul>
-                <li><a href="#">Political</a></li>
+                <li><a href="/category.php">Political</a></li>
                 <li><a href="#">Nature</a></li>
                 <li><a href="#">Society</a></li>
                 <li><a href="#">World</a></li>
