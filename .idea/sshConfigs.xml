@@ -3,7 +3,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig authType="PASSWORD" host="192.168.0.18" id="73a2dd90-1ac3-4e39-8811-a7198e362375" port="22" nameFormat="DESCRIPTIVE" username="bitrix" useOpenSSHConfig="true" />
-      <sshConfig authType="PASSWORD" host="192.168.92.107" id="bb66a7ea-a994-44b5-a877-ee519162d36a" port="22" customName="MY" nameFormat="CUSTOM" username="bitrix" useOpenSSHConfig="true">
+      <sshConfig authType="PASSWORD" host="192.168.0.18" id="bb66a7ea-a994-44b5-a877-ee519162d36a" port="22" customName="MY" nameFormat="CUSTOM" username="bitrix" useOpenSSHConfig="true">
         <option name="customName" value="MY" />
       </sshConfig>
     </configs>

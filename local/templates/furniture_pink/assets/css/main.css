@@ -218,26 +218,53 @@ header{
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.527);
 }
 
-.bigrecttxt{
-    width: 80%;
-}
-.bigrectp{
+/*Блок For you: Для картинок и текста:*/
+
+.rect:first-child .rectp{
     margin: 20px;
     display: block;
 }
-.bigrecimg{
+.recttxt{
+    width: 80%;
+    margin: 0 0 3dvh 0;
+}
+
+.rect:first-child .rectimg {
     width: 80%;
     height: auto;
     margin: 4dvh;
+    border-radius: 8px;
+    align-self: center;
 }
-.smrectimg{
+.rect:nth-child(2) .rectimg,
+.rect:nth-child(3) .rectimg {
     margin: 2dvh;
     width: 25%;
     height: fit-content;
+    align-self: center;
 }
-.smrecttxt{
+
+.rect:nth-child(2) .recttxt,
+.rect:nth-child(3) .recttxt {
     margin: 2dvh 0;
 }
+.row:nth-child(even) .rect:first-child .rectimg{
+    margin: 2dvh;
+    width: 25%;
+    height: fit-content;
+    align-self: center;
+}
+.row:nth-child(even) .rect:last-child .rectimg{
+    width: 80%;
+    height: auto;
+    margin: 4dvh;
+    border-radius: 8px;
+    align-self: center;
+}
+
+
+    /*Конец блока For you*/
+
 .back{
     display: flex;
     text-align: center;
