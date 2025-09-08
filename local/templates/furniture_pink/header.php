@@ -33,55 +33,11 @@ use Bitrix\Main\Page\Asset;
         <a href="#">
             <img class="hamburger" src="<?=SITE_TEMPLATE_PATH?>/assets/resources/Hamburger_icon1.png?" alt="Menu">
         </a>
-        <div class="mains">NEWS</div>
+        <a href="/index.php">
+            <div class="mains">NEWS</div>
+        </a>
     </div>
-    <ol id="menu" class="ol1">
-        <li><a class="li1" href="">
-                <svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg"
-                     xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g filter="url(#filter0_d_123_52)">
-                        <rect x="4" width="90" height="90" fill="url(#pattern0_123_52)" shape-rendering="crispEdges"/>
-                    </g>
-                    <defs>
-                        <filter id="filter0_d_123_52" x="0" y="0" width="98" height="98" filterUnits="userSpaceOnUse"
-                                color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                           result="hardAlpha"/>
-                            <feOffset dy="4"/>
-                            <feGaussianBlur stdDeviation="2"/>
-                            <feComposite in2="hardAlpha" operator="out"/>
-                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_52"/>
-                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_52" result="shape"/>
-                        </filter>
-                        <pattern id="pattern0_123_52" patternContentUnits="objectBoundingBox" width="1" height="1">
-                            <use xlink:href="#image0_123_52" transform="scale(0.0111111)"/>
-                        </pattern>
-                        <image id="image0_123_52" width="90" height="90"
-                               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAv0lEQVR4nO3awWrCQABF0Ys7/XxrqV9pu2m3kUDWYmahAz0H8gOXMAN5KQAAAAAAAADe6lR9Vj/V4ulRg+/qUh1HQl/Fbe8Ltjbb5VD9Cd3e0L9bO6GbLLSjo6HQXw1YD/aP7aB3Gfawwa06j16GAAAAAAD/nHG2p7/DG2d77WhhnO01oY2zTRp65b+OjLPLZIOxcRYAAAAAYJxxNuPsMsHHfuNs7wttnG3S0CvjbMbZZYLz2DgLAAAAAAAA0GTuqD9gUMDt6+cAAAAASUVORK5CYII="/>
-                    </defs>
-                </svg>
-            </a>
-            <ol class="ol2">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">For you</a>
-                </li>
-                <li>
-                    <a href="#">Following</a>
-                </li>
-                <li>
-                    <a href="#">World</a>
-                </li>
-                <li>
-                    <a href="aboutus.html">About us</a>
-                </li>
-            </ol>
-        </li>
-    </ol>
+
 
     <?$APPLICATION->IncludeComponent(
         "bitrix:menu",
