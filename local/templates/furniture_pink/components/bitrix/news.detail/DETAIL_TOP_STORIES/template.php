@@ -19,11 +19,11 @@ Bitrix\Main\Diag\Debug::writeToFile($arResult,'','/_res.log');
         <rect width="1170" height="1" fill="#4A4848"/>
     </svg>
     <p>6 hours ago / by <?=$arResult['CREATED_USER_NAME']?></p>
-        <?if($arResult["DISPLAY_PROPERTIES"]["DETAIL_PICTURES"]["FILE_VALUE"]){?>
-            <?foreach ($arResult["DISPLAY_PROPERTIES"]["DETAIL_PICTURES"]["FILE_VALUE"] as $arItem){?>
-                <img src="<?= $arItem['SRC'] ?>" alt="">
-                <p><?= $arItem['DESCRIPTION'] ?></p>
-            <?}?>
+    <?if($arResult["DISPLAY_PROPERTIES"]["DETAIL_PICTURES"]["FILE_VALUE"]){?>
+        <?foreach ($arResult["DISPLAY_PROPERTIES"]["DETAIL_PICTURES"]["FILE_VALUE"] as $arItem){?>
+            <img src="<?= $arItem['SRC'] ?>" alt="">
+            <p><?= $arItem['DESCRIPTION'] ?></p>
         <?}?>
+    <?}?>
     <p>6 hours ago / by <?=$arResult['CREATED_USER_NAME']?></p>
 </section>

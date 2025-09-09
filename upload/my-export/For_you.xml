@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<КоммерческаяИнформация ВерсияСхемы="2.021" ДатаФормирования="2025-09-02T21:27:37">
+<КоммерческаяИнформация ВерсияСхемы="2.021" ДатаФормирования="2025-09-09T21:29:34">
 	<Классификатор>
-		<Ид>7</Ид>
-		<Наименование>Top_News</Наименование>
+		<Ид>8</Ид>
+		<Наименование>For_you</Наименование>
 		<Свойства>
 			<Свойство>
 				<Ид>CML2_ACTIVE</Ид>
@@ -44,14 +44,45 @@
 				<Наименование>Картинка анонса</Наименование>
 				<Множественное>false</Множественное>
 			</Свойство>
+			<Свойство>
+				<Ид>12</Ид>
+				<Наименование>Детальные картинки</Наименование>
+				<Множественное>true</Множественное>
+				<БитриксСортировка>500</БитриксСортировка>
+				<БитриксКод>DETAIL_PICTURES</БитриксКод>
+				<БитриксТипСвойства>F</БитриксТипСвойства>
+				<БитриксСтрок>1</БитриксСтрок>
+				<БитриксКолонок>30</БитриксКолонок>
+				<БитриксТипСписка>L</БитриксТипСписка>
+				<БитриксТипыФайлов></БитриксТипыФайлов>
+				<БитриксКоличествоПолей>5</БитриксКоличествоПолей>
+				<БитриксСвязанныйИнфоблок></БитриксСвязанныйИнфоблок>
+				<БитриксОписаниеРазрешено>true</БитриксОписаниеРазрешено>
+				<БитриксПоискРазрешен>false</БитриксПоискРазрешен>
+				<БитриксФильтрРазрешен>false</БитриксФильтрРазрешен>
+				<БитриксРасширениеТипа></БитриксРасширениеТипа>
+				<БитриксОбязательное>false</БитриксОбязательное>
+				<БитриксЗначениеПоУмолчанию>s:0:&quot;&quot;;</БитриксЗначениеПоУмолчанию>
+				<Сериализовано>1</Сериализовано>
+				<БитриксРасширенныеПараметры>a:2:{i:0;a:3:{s:9:&quot;MODULE_ID&quot;;s:6:&quot;iblock&quot;;s:10:&quot;FEATURE_ID&quot;;s:16:&quot;DETAIL_PAGE_SHOW&quot;;s:10:&quot;IS_ENABLED&quot;;s:1:&quot;N&quot;;}i:1;a:3:{s:9:&quot;MODULE_ID&quot;;s:6:&quot;iblock&quot;;s:10:&quot;FEATURE_ID&quot;;s:14:&quot;LIST_PAGE_SHOW&quot;;s:10:&quot;IS_ENABLED&quot;;s:1:&quot;N&quot;;}}</БитриксРасширенныеПараметры>
+			</Свойство>
 		</Свойства>
+		<СвойстваЭлементов>
+			<Свойство>
+				<Ид>12</Ид>
+				<УмныйФильтр>false</УмныйФильтр>
+				<ТипОтображения></ТипОтображения>
+				<ПоказатьРазвёрнутым>false</ПоказатьРазвёрнутым>
+				<Подсказка></Подсказка>
+			</Свойство>
+		</СвойстваЭлементов>
 		<Группы>
 		</Группы>
 	</Классификатор>
 	<Каталог>
-		<Ид>7</Ид>
-		<ИдКлассификатора>7</ИдКлассификатора>
-		<Наименование>Top_News</Наименование>
+		<Ид>8</Ид>
+		<ИдКлассификатора>8</ИдКлассификатора>
+		<Наименование>For_you</Наименование>
 		<БитриксКод></БитриксКод>
 		<БитриксСимвольныйКодAPI></БитриксСимвольныйКодAPI>
 		<БитриксСортировка>500</БитриксСортировка>
@@ -107,8 +138,8 @@
 		</БитриксПодписи>
 		<Товары>
 			<Товар>
-				<Ид>39</Ид>
-				<Наименование>The one question from Donald Trump that could sway many American voters in swing states.</Наименование>
+				<Ид>42</Ид>
+				<Наименование>Lorem ipsum dolor</Наименование>
 				<БитриксТеги></БитриксТеги>
 				<Группы>
 				</Группы>
@@ -120,15 +151,15 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_CODE</Ид>
-						<Значение>the-one-question-from-donald-trump-that-could-sway-many-american-voters-in-swing-states</Значение>
+						<Значение>lorem-ipsum-dolor</Значение>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_SORT</Ид>
-						<Значение>10</Значение>
+						<Значение>5</Значение>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_ACTIVE_FROM</Ид>
-						<Значение>2025-09-02 21:16:00</Значение>
+						<Значение></Значение>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_ACTIVE_TO</Ид>
@@ -136,8 +167,7 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_TEXT</Ид>
-						<Значение>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-		</Значение>
+						<Значение>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Значение>
 						<Тип>text</Тип>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
@@ -147,13 +177,26 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_PICTURE</Ид>
-						<Значение>export_files/iblock/c65/nv7nxq56m0fh4o9mn2vn1bol51kn3yzu.png</Значение>
+						<Значение>For_you_files/iblock/d74/osseig5krmvhpofu1n9sjz5fbvih06pa.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>12</Ид>
+						<Значение>For_you_files/iblock/99f/tyztsf3uigq6rkzbcyqjwqf7m7ixz91p.png</Значение>
+						<ЗначениеСвойства>
+							<Значение>For_you_files/iblock/99f/tyztsf3uigq6rkzbcyqjwqf7m7ixz91p.png</Значение>
+							<Описание>fajifiawlkfgjawlkgjawlkgjalkegjl</Описание>
+						</ЗначениеСвойства>
+						<Значение>For_you_files/iblock/672/1lxs2an7fxf85ajew7kb6bma51537zxh.png</Значение>
+						<ЗначениеСвойства>
+							<Значение>For_you_files/iblock/672/1lxs2an7fxf85ajew7kb6bma51537zxh.png</Значение>
+							<Описание>ajkfbnajkwfjlkawflkawj</Описание>
+						</ЗначениеСвойства>
 					</ЗначенияСвойства>
 				</ЗначенияСвойств>
 			</Товар>
 			<Товар>
-				<Ид>40</Ид>
-				<Наименование>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</Наименование>
+				<Ид>43</Ид>
+				<Наименование>Quisque faucibus ex sapien vitae pellentesque sem placerat.</Наименование>
 				<БитриксТеги></БитриксТеги>
 				<Группы>
 				</Группы>
@@ -165,7 +208,103 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_CODE</Ид>
-						<Значение>quisque-rutrum-aenean-imperdiet-etiam-ultricies-nisi-vel-augue</Значение>
+						<Значение>quisque-faucibus-ex-sapien-vitae-pellentesque-sem-placerat</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>10</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение>Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.</Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>For_you_files/iblock/572/amza1vk7p8dtxlk5ab0r2o1wjonv5iyt.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>12</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>44</Ид>
+				<Наименование>Ut hendrerit semper vel class aptent taciti sociosqu.</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>ut-hendrerit-semper-vel-class-aptent-taciti-sociosqu</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>15</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение>Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>For_you_files/iblock/90a/yvwqa1agt0oea3g4l4qigw20fivda850.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>12</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>45</Ид>
+				<Наименование>Lorem ipsum dolor sit amet consectetur adipiscing elit.</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</Значение>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_SORT</Ид>
@@ -181,8 +320,7 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_TEXT</Ид>
-						<Значение>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-		</Значение>
+						<Значение>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. </Значение>
 						<Тип>text</Тип>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
@@ -192,13 +330,17 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_PICTURE</Ид>
-						<Значение>export_files/iblock/b61/pj15it6hp5ljox6inq0gpi04fma1pbio.png</Значение>
+						<Значение>For_you_files/iblock/05d/2dwlibe1tccehlk6m4i9fg1vo61rphbk.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>12</Ид>
+						<Значение></Значение>
 					</ЗначенияСвойства>
 				</ЗначенияСвойств>
 			</Товар>
 			<Товар>
-				<Ид>41</Ид>
-				<Наименование>Maecenas nec odio et ante tincidunt tempus.</Наименование>
+				<Ид>46</Ид>
+				<Наименование>Pulvinar vivamus fringilla lacus nec metus bibendum egestas. </Наименование>
 				<БитриксТеги></БитриксТеги>
 				<Группы>
 				</Группы>
@@ -210,7 +352,55 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_CODE</Ид>
-						<Значение>maecenas-nec-odio-et-ante-tincidunt-tempus</Значение>
+						<Значение>pulvinar-vivamus-fringilla-lacus-nec-metus-bibendum-egestas-</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>25</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение>Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. </Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>For_you_files/iblock/35d/sqrcr5gnpjge45e4rw8gl3tlij3scrpc.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>12</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>47</Ид>
+				<Наименование>Tempus leo eu aenean sed diam urna tempor. </Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>tempus-leo-eu-aenean-sed-diam-urna-tempor-</Значение>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_SORT</Ид>
@@ -226,8 +416,7 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_TEXT</Ид>
-						<Значение>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
-		</Значение>
+						<Значение>Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. </Значение>
 						<Тип>text</Тип>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
@@ -237,7 +426,59 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_PICTURE</Ид>
-						<Значение>export_files/iblock/e66/hpeftvlgle1r18i7vxviobp7nqow7wkz.png</Значение>
+						<Значение>For_you_files/iblock/99f/tyztsf3uigq6rkzbcyqjwqf7m7ixz91p.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>12</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>48</Ид>
+				<Наименование>Quisque faucibus ex sapien vitae.</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка></Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>quisque-faucibus-ex-sapien-vitae</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>35</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. </Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение></Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>For_you_files/iblock/536/4p53ss0gadkwb87etmgavp1y3ez4q37n.png</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>12</Ид>
+						<Значение></Значение>
 					</ЗначенияСвойства>
 				</ЗначенияСвойств>
 			</Товар>
