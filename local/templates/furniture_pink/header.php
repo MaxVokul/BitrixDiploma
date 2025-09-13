@@ -14,7 +14,8 @@ use Bitrix\Main\Page\Asset;
     <?php
     $asset->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
     $asset->addCss(SITE_TEMPLATE_PATH.'/assets/css/main.css');
-    $asset->addJs(SITE_TEMPLATE_PATH.'/assets/js/menu.js');
+    $asset->addJs(SITE_TEMPLATE_PATH.'/assets/slidingmenu.js');
+    $asset->addJs(SITE_TEMPLATE_PATH.'/assets/script.js');
     $asset->addString('<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap">')
     ?>
 
@@ -71,6 +72,51 @@ use Bitrix\Main\Page\Asset;
         </a>
     </div>
 </header>
+
+    <!-- Modal window -->
+    <div class="modal-window hidden">
+        <button class="btn--close-modal-window">×</button>
+
+        <!-- Toggle buttons -->
+        <div class="modal-toggle">
+            <button class="toggle-btn active" data-tab="login">Login</button>
+            <button class="toggle-btn" data-tab="register">Register</button>
+        </div>
+
+        <!-- Login Form -->
+        <form class="modal__form login-form" style="display: flex;">
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" name="email" placeholder="Enter your email" required>
+
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="btn">Login →</button>
+        </form>
+
+        <!-- Register Form -->
+        <form class="modal__form register-form" style="display: none;">
+            <label for="register-name">Full Name</label>
+            <input type="text" id="register-name" name="name" placeholder="Enter your full name" required>
+
+            <label for="register-email">Email</label>
+            <input type="email" id="register-email" name="email" placeholder="Enter your email" required>
+
+            <label for="register-phone">Phone Number</label>
+            <input type="tel" id="register-phone" name="phone" class="phone" placeholder="Enter your phone">
+
+            <label for="register-password">Password</label>
+            <input type="password" id="register-password" name="password" placeholder="Create password" required>
+
+            <label for="register-confirm-password">Confirm Password</label>
+            <input type="password" id="register-confirm-password" name="confirm_password" placeholder="Confirm password" required>
+
+            <button type="submit" class="btn">Register →</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+
 <!-- Sliding Left Menu -->
 <div class="slide-menu hidden">
     <div class="slide-menu__content">

@@ -182,17 +182,11 @@ if(!$isDetailPage) {
 	false
 );?>
 
- <section class="back">
-<h1 id="back"><a href="">Back</a></h1>
- </section>
-<div class="modal-window hidden">
- <button class="btn--close-modal-window">×</button>
-	<h2 class="modal__header">
-	Login </h2>
-	<form class="modal__form">
- <label>Email</label> <input type="email"> <label>Номер телефона</label> <input type="text" class="phone"> <label for="Password">Пароль:</label> <input type="password" id="Password" placeholder="Пароль"> <button class="btn">Далее →</button>
-	</form>
-</div>
-<div class="overlay hidden">
-</div>
+
+<section class="back">
+    <h1 id="back"><a href="">Back</a></h1>
+</section>
+
+
+
  <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
