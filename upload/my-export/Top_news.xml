@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<КоммерческаяИнформация ВерсияСхемы="2.021" ДатаФормирования="2025-09-02T21:27:37">
+<КоммерческаяИнформация ВерсияСхемы="2.021" ДатаФормирования="2025-09-18T22:14:21">
 	<Классификатор>
 		<Ид>7</Ид>
 		<Наименование>Top_News</Наименование>
@@ -108,11 +108,11 @@
 		<Товары>
 			<Товар>
 				<Ид>39</Ид>
-				<Наименование>The one question from Donald Trump that could sway many American voters in swing states.</Наименование>
+				<Наименование>111The one question from Donald Trump that could sway many American voters in swing states.</Наименование>
 				<БитриксТеги></БитриксТеги>
 				<Группы>
 				</Группы>
-				<Картинка></Картинка>
+				<Картинка>Top_news_files/iblock/a35/wh8b7cr5okezc61ncpfgjupzbnx6q0c3.png</Картинка>
 				<ЗначенияСвойств>
 					<ЗначенияСвойства>
 						<Ид>CML2_ACTIVE</Ид>
@@ -120,7 +120,7 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_CODE</Ид>
-						<Значение>the-one-question-from-donald-trump-that-could-sway-many-american-voters-in-swing-states</Значение>
+						<Значение>111the-one-question-from-donald-trump-that-could-sway-many-american-voters-in-swing-states</Значение>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_SORT</Ид>
@@ -136,18 +136,18 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_TEXT</Ид>
-						<Значение>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+						<Значение>11Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 		</Значение>
 						<Тип>text</Тип>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_DETAIL_TEXT</Ид>
-						<Значение></Значение>
+						<Значение>AAAALorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</Значение>
 						<Тип>text</Тип>
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_PICTURE</Ид>
-						<Значение>export_files/iblock/c65/nv7nxq56m0fh4o9mn2vn1bol51kn3yzu.png</Значение>
+						<Значение>Top_news_files/iblock/a35/wh8b7cr5okezc61ncpfgjupzbnx6q0c3.png</Значение>
 					</ЗначенияСвойства>
 				</ЗначенияСвойств>
 			</Товар>
@@ -192,7 +192,7 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_PICTURE</Ид>
-						<Значение>export_files/iblock/b61/pj15it6hp5ljox6inq0gpi04fma1pbio.png</Значение>
+						<Значение>Top_news_files/iblock/c7f/w5gxa89vba2d10y8yxumehvs3fvazla7.png</Значение>
 					</ЗначенияСвойства>
 				</ЗначенияСвойств>
 			</Товар>
@@ -237,7 +237,7 @@
 					</ЗначенияСвойства>
 					<ЗначенияСвойства>
 						<Ид>CML2_PREVIEW_PICTURE</Ид>
-						<Значение>export_files/iblock/e66/hpeftvlgle1r18i7vxviobp7nqow7wkz.png</Значение>
+						<Значение>Top_news_files/iblock/1f2/92wk3ke9auukedysq877lku3ve6mn4wm.png</Значение>
 					</ЗначенияСвойства>
 				</ЗначенияСвойств>
 			</Товар>
