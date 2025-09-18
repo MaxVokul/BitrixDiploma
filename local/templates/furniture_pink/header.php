@@ -63,8 +63,8 @@ use Bitrix\Main\Page\Asset;
             <path d="M12.75 0C9.24375 0 6.12 1.46625 3.76125 3.76125C1.46625 6.05625 0 9.18 0 12.75C0 16.2563 1.46625 19.38 3.76125 21.7388L25.5 43.4775L47.2388 21.7388C49.5337 19.4438 51 16.32 51 12.75C51 9.24375 49.5337 6.12 47.2388 3.76125C44.9437 1.46625 41.82 0 38.25 0C34.7438 0 31.62 1.46625 29.2613 3.76125C26.9663 6.05625 25.5 9.18 25.5 12.75C25.5 9.24375 24.0338 6.12 21.7388 3.76125C19.4438 1.46625 16.32 0 12.75 0Z"
                   fill="black"/>
         </svg>
-        <a href="#">
-            <svg class="rpl btn--show-modal-window" width="52" height="46" viewBox="0 0 52 46" fill="none"
+        <a href="/registr.php">
+            <svg class="rpl" width="52" height="46" viewBox="0 0 52 46" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.307 0V6.43568H45.0497V38.6141H19.307V45.0497H51.4854V0H19.307ZM25.7427 12.8714V19.307H0V25.7427H25.7427V32.1784L38.6141 22.5249L25.7427 12.8714Z"
                       fill="black"/>
@@ -73,48 +73,6 @@ use Bitrix\Main\Page\Asset;
     </div>
 </header>
 
-    <!-- Modal window -->
-    <div class="modal-window hidden">
-        <button class="btn--close-modal-window">×</button>
-
-        <!-- Toggle buttons -->
-        <div class="modal-toggle">
-            <button class="toggle-btn active" data-tab="login">Login</button>
-            <button class="toggle-btn" data-tab="register">Register</button>
-        </div>
-
-        <!-- Login Form -->
-        <form class="modal__form login-form" style="display: flex;">
-            <label for="login-email">Email</label>
-            <input type="email" id="login-email" name="email" placeholder="Enter your email" required>
-
-            <label for="login-password">Password</label>
-            <input type="password" id="login-password" name="password" placeholder="Enter your password" required>
-
-            <button type="submit" class="btn">Login →</button>
-        </form>
-
-        <!-- Register Form -->
-        <form class="modal__form register-form" style="display: none;">
-            <label for="register-name">Full Name</label>
-            <input type="text" id="register-name" name="name" placeholder="Enter your full name" required>
-
-            <label for="register-email">Email</label>
-            <input type="email" id="register-email" name="email" placeholder="Enter your email" required>
-
-            <label for="register-phone">Phone Number</label>
-            <input type="tel" id="register-phone" name="phone" class="phone" placeholder="Enter your phone">
-
-            <label for="register-password">Password</label>
-            <input type="password" id="register-password" name="password" placeholder="Create password" required>
-
-            <label for="register-confirm-password">Confirm Password</label>
-            <input type="password" id="register-confirm-password" name="confirm_password" placeholder="Confirm password" required>
-
-            <button type="submit" class="btn">Register →</button>
-        </form>
-    </div>
-    <div class="overlay hidden"></div>
 
 
 <!-- Sliding Left Menu -->

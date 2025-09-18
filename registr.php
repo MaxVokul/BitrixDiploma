@@ -1,34 +1,43 @@
-<?
+<?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-
-if (is_string($_REQUEST["backurl"]) && mb_strpos($_REQUEST["backurl"], "/") === 0)
-{
-	LocalRedirect($_REQUEST["backurl"]);
-}
-
-$APPLICATION->SetTitle("Вход на сайт");
+$APPLICATION->SetTitle("Регистрация");
 ?>
 
 <div class="auth-container">
     <div class="auth-form-wrapper">
-        <h2 class="auth-title">Вход</h2>
+        <h2 class="auth-title">Регистрация</h2>
         
         <form class="auth-form" method="POST" action="">
             <div class="form-group">
-                <label for="login-email">Email</label>
-                <input type="email" id="login-email" name="email" placeholder="Введите ваш email" required>
+                <label for="register-name">Полное имя</label>
+                <input type="text" id="register-name" name="name" placeholder="Введите ваше полное имя" required>
             </div>
 
             <div class="form-group">
-                <label for="login-password">Пароль</label>
-                <input type="password" id="login-password" name="password" placeholder="Введите пароль" required>
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" name="email" placeholder="Введите ваш email" required>
             </div>
 
-            <button type="submit" class="auth-btn">Войти</button>
+            <div class="form-group">
+                <label for="register-phone">Номер телефона</label>
+                <input type="tel" id="register-phone" name="phone" class="phone" placeholder="Введите номер телефона">
+            </div>
+
+            <div class="form-group">
+                <label for="register-password">Пароль</label>
+                <input type="password" id="register-password" name="password" placeholder="Создайте пароль" required>
+            </div>
+
+            <div class="form-group">
+                <label for="register-confirm-password">Подтвердите пароль</label>
+                <input type="password" id="register-confirm-password" name="confirm_password" placeholder="Подтвердите пароль" required>
+            </div>
+
+            <button type="submit" class="auth-btn">Зарегистрироваться</button>
         </form>
 
         <div class="auth-links">
-            <p>Нет аккаунта? <a href="/registr.php">Зарегистрироваться</a></p>
+            <p>Уже есть аккаунт? <a href="/login/">Войти</a></p>
             <p><a href="/forget.php">Забыли пароль?</a></p>
         </div>
     </div>
@@ -150,4 +159,5 @@ $APPLICATION->SetTitle("Вход на сайт");
     }
 }
 </style>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+
+<?php require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php"); ?>

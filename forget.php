@@ -1,35 +1,24 @@
-<?
+<?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-
-if (is_string($_REQUEST["backurl"]) && mb_strpos($_REQUEST["backurl"], "/") === 0)
-{
-	LocalRedirect($_REQUEST["backurl"]);
-}
-
-$APPLICATION->SetTitle("Вход на сайт");
+$APPLICATION->SetTitle("Восстановление пароля");
 ?>
 
 <div class="auth-container">
     <div class="auth-form-wrapper">
-        <h2 class="auth-title">Вход</h2>
+        <h2 class="auth-title">Восстановление пароля</h2>
         
         <form class="auth-form" method="POST" action="">
             <div class="form-group">
-                <label for="login-email">Email</label>
-                <input type="email" id="login-email" name="email" placeholder="Введите ваш email" required>
+                <label for="forget-email">Email</label>
+                <input type="email" id="forget-email" name="email" placeholder="Введите ваш email" required>
             </div>
 
-            <div class="form-group">
-                <label for="login-password">Пароль</label>
-                <input type="password" id="login-password" name="password" placeholder="Введите пароль" required>
-            </div>
-
-            <button type="submit" class="auth-btn">Войти</button>
+            <button type="submit" class="auth-btn">Отправить ссылку для восстановления</button>
         </form>
 
         <div class="auth-links">
+            <p>Вспомнили пароль? <a href="/login/">Войти</a></p>
             <p>Нет аккаунта? <a href="/registr.php">Зарегистрироваться</a></p>
-            <p><a href="/forget.php">Забыли пароль?</a></p>
         </div>
     </div>
 </div>
@@ -150,4 +139,5 @@ $APPLICATION->SetTitle("Вход на сайт");
     }
 }
 </style>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+
+<?php require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php"); ?>
