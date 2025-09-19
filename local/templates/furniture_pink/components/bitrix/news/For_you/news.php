@@ -60,6 +60,21 @@ $APPLICATION->IncludeComponent(
 <br />
 <?php
 endif;
+
+
+global $USER;
+$res = \Diploma\Helper::getTopNews($USER->GetID());
+$res = array_column($res, 'NEWS_ID');
+
+
+global $userNews;
+
+$userNews = [
+        'ID' => $res
+];
+//\Bitrix\Main\Diag\Debug::writeToFile($userNews, '', '/_top-news.log');
+
+
 $APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"",
@@ -106,7 +121,7 @@ $APPLICATION->IncludeComponent(
 		"ACTIVE_DATE_FORMAT" => $arParams["LIST_ACTIVE_DATE_FORMAT"],
 		"USE_PERMISSIONS" => $arParams["USE_PERMISSIONS"],
 		"GROUP_PERMISSIONS" => $arParams["GROUP_PERMISSIONS"],
-		"FILTER_NAME" => $arParams["FILTER_NAME"],
+		"FILTER_NAME" => 'userNews',
 		"HIDE_LINK_WHEN_NO_DETAIL" => $arParams["HIDE_LINK_WHEN_NO_DETAIL"],
 		"CHECK_DATES" => $arParams["CHECK_DATES"],
 	],

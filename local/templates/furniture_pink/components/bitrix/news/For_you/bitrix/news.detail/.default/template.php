@@ -11,7 +11,9 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
-Bitrix\Main\Diag\Debug::writeToFile($arResult,'','/_res.log');
+//Bitrix\Main\Diag\Debug::writeToFile($arResult,'','/_res.log');
+echo '<pre>'. print_r($arResult,true) .'</pre>';
+
 ?>
 <section class="ts">
     <h2><?=$arResult['NAME']?></h2>
